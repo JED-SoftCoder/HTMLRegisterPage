@@ -1,0 +1,59 @@
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+   
+}
+
+.buttons{
+    background-color: rgb(0, 110, 255);
+    float: right;
+    padding: 5px 5px;
+    margin: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.text{
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.input{
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 75%;
+}
+
+#button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 75%;
+}
+
+.images{
+    margin-top: 25px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
